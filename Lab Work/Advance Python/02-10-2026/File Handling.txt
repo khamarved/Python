@@ -1,0 +1,14 @@
+:- File Handling.
+ -> bank - logged entries-paper-txt
+ -> data-server-fetch-txt-file handling.
+
+
+:- There are 3 Methods.
+ -> Write   #create new file
+ -> read    #read existing file
+ -> append  #append an existing file and create new file if not exist.
+
+:- There are 3 Phase.
+ -> Open file.
+ -> context.
+ -> close.

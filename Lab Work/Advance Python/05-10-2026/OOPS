@@ -1,0 +1,49 @@
+"""
+#OOPS
+:- OOPS
+ -> Object oriented programming systems.
+ -> It is one type of system code.
+  -> Unorganize
+  -> Structure
+  -> Structure - work - failure.
+OOPS = Structure wise programming.
+
+
+#Pillars of OOPS
+1. Class - object.
+2. Inheritance.
+3. Encapsulation.
+4. Abstraction.
+5. Polymorphism.
+
+call - multiple funcition -  entity - class 
+class - access - object.add()
+
+1. Class - Object
+ -> It is a collection of data members and member functions.\
+
+2. Object 
+ -> Object is an instance of class through the object you can access all the properties of class.
+ 
+
+# Access Specifiers.
+1. Public - Accessible to all.
+2. Private - Within class , within a class only.
+3. Protected - inherit first derived class only. 
+
+python - public 
+private = __ a = 10
+protected = _ a = 10
+
+
+There is a difference between function and method.
+function - independent - call
+method - dependent - call - object.method()
+
+
+
+
+
+
+
+"""

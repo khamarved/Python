@@ -1,0 +1,12 @@
+:-  Exception Handling.
+ -> Exception handling handed run time error.
+
+:- Types Of Error.
+ -> Developer Error - logic.
+ -> run-time error - user wrong input.
+
+:- There are 4 Methods.
+ -> try        # Write full code in it.
+ -> except     # Run when try is false.
+ -> else       # Run When try is true.
+ -> finally    # Always run.

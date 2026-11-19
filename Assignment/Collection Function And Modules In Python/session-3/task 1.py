@@ -1,0 +1,3 @@
+"""<p>Create 'kirana_bill.py' with three lists of 8 grocery items: `items` (names), `prices` (₹ per unit, such as 49.5 or 112.75) and `qty` (1 to 5).
+Use `zip()` to loop through all three lists together and print each item with its line amount (price x quantity) rounded to 2 decimals with `round()`.
+ Hint: `zip(items, prices, qty)`gives one tuple per row. Constraint: Do not use `range()` or indexes.</p>"""

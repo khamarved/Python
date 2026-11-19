@@ -1,0 +1,8 @@
+
+:- Encapsulation.
+ -> Data binding into single entity is called encapsulation.
+
+:- Pointer.
+ -> Stores the address of another variable.
+
+ 

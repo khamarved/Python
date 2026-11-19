@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body bgcolor="#EAF6FF">
+
+<center>
+
+    <h1 style="color:#003366;">Student Registration Form</h1>
+
+    <form action="" method="">
+
+        <table bgcolor="white" border="0" cellpadding="10" cellspacing="0">
+
+            <tr>
+                <td><label for="rollno">Roll Number:</label></td>
+                <td><input type="text" name="rollno"></td>
+            </tr>
+
+            <tr>
+                <td><label for="name">Student Name:</label></td>
+                <td><input type="text" name="name" placeholder="Student Name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="fname">Father's Name:</label></td>
+                <td><input type="text" name="fname"></td>
+            </tr>
+
+            <tr>
+                <td><label for="date">Date Of Birth:</label></td>
+                <td><input type="date" name="date"></td>
+            </tr>
+
+            <tr>
+                <td><label for="mobile">Mobile No:</label></td>
+                <td><input type="tel" name="mobile"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email Id:</label></td>
+                <td><input type="email" name="email" placeholder="Enter Email Id"></td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" name="password" placeholder="Enter Password"></td>
+            </tr>
+
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="department">Department:</label></td>
+                <td>
+                    <select name="department">
+                        <option value="">--Select Department--</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Mechanical">Mechanical</option>
+                        <option value="Electrical">Electrical</option>
+                        <option value="Civil">Civil</option>
+                        <option value="Electronics">Electronics</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="course">Course:</label></td>
+                <td>
+                    <textarea name="course" placeholder="Enter Course"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="time">Time:</label></td>
+                <td><input type="time" name="time"></td>
+            </tr>
+
+            <tr>
+                <td><label for="city">City:</label></td>
+                <td>
+                    <select name="city">
+                        <option value="">--Select City--</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Surat">Surat</option>
+                        <option value="Vadodara">Vadodara</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Hobbies:</label></td>
+                <td>
+                    <input type="checkbox" name="hobbies" value="Cricket"> Cricket
+                    <input type="checkbox" name="hobbies" value="Tennis"> Tennis
+                    <input type="checkbox" name="hobbies" value="Football"> Football
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="link">Website:</label></td>
+                <td><input type="url" name="link" placeholder="https://example.com"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</center>
+
+</body>
+</html>
